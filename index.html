@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Boston Redevelopment Authority</title>
+        
+    <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	
+	<!-- Multi Selection Option library Starts -->
+	
+	<!-- Ignite UI Required Combined CSS Files -->
+    <link href="http://cdn-na.infragistics.com/igniteui/2015.2/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet" />
+    <link href="http://cdn-na.infragistics.com/igniteui/2015.2/latest/css/structure/infragistics.css" rel="stylesheet" />
+
+    <script src="http://modernizr.com/downloads/modernizr-latest.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+
+    <!-- Ignite UI Required Combined JavaScript Files -->
+    <script src="http://cdn-na.infragistics.com/igniteui/2015.2/latest/js/infragistics.core.js"></script>
+    <script src="http://cdn-na.infragistics.com/igniteui/2015.2/latest/js/infragistics.lob.js"></script>
+
+	
+	<!-- Multi Selection Option library End -->
+	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	
+	
+</head>
+
+<body class="main">
+
+<div class="container">
+	<div class="jumbotron">
+		<div class="col-md-12">
+		<img src="image/BRA.png" width="270" height="100">
+			<div class="bodyRight">
+				ABOUT THE BRA // CONTACT US // NEWS // CALENDER
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+				<div id="header"> 
+					 <ul class="header1"><b>
+						<li class="k">NEIGHBORHOODS</li>
+						<li class="k">PLANNING</li>
+						<li class="k">ZONING</li>
+						<li class="k">DEVELOPMENT</li>
+						<li class="k">WORK WITH THE BRA</li>
+						<li class="k">RESEARCH & MAPS</li></b>
+					</ul>
+				</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4" id="sidebar"><br>
+		<b class="sidehead"><center>Filter By Categories</center></b>
+		<div class="search">
+				<ul>
+				  <li><i href="#"><b>By Document Type</b></i>
+						<div id="checkboxSelectCombo"></div>
+				  </li>
+				  <li><i href="#"><b>By Neighborhood</b></i>
+						<div id="checkboxSelectCombo1"></div>
+				  </li>
+   
+				  <li><i href="#"><b>By Department</b></i>
+						<div id="checkboxSelectCombo2"></div>
+			      </li>
+			      <li><i href="#"><b>By Program</b></i>
+				  <div id="checkboxSelectCombo3"></div>
+			      </li>
+				  <li><i href="#"><b>Filter By Date</b></i>
+				    <div class="control-group">
+						<i class="date"><b>From</b></i>
+						<div class="controls">
+							<div class="input-group">
+								<input id="date-picker-2" type="text" class="date-picker form-control" />
+								<label for="date-picker-2" class="input-group-addon btn"><span class="glyphicon glyphicon-calendar"></span>
+								</label>
+							</div>
+						</div>
+						<i class="date"><b>To</b></i>
+						<div class="controls">
+							<div class="input-group">
+								<input id="date-picker-3" type="text" class="date-picker form-control" />
+								<label for="date-picker-3" class="input-group-addon btn"><span class="glyphicon glyphicon-calendar"></span>
+								</label>
+							</div>
+						</div>
+					</div>				  
+			      </li>
+				</ul>
+			</div>
+			
+	 </div>
+	
+
+		
+		<div class="col-md-8">
+				<div class="row">
+							<div  id="searchbar">
+							<h3><b><center>Document Center</center></b></h3>
+							<table class="table table-striped">
+										<thead>
+												  
+												    <th>No.</th>
+													<th>Document Name <span class="glyphicon glyphicon-sort" title="Sort" ></span></th>
+													<th>Department <span class="glyphicon glyphicon-sort" title="Sort"></span></th>
+													<th>Date <span class="glyphicon glyphicon-sort" title="Sort"></span></th>
+													<th></th>
+												  </tr>
+										</thead>
+										<tbody>
+												  <tr>
+												    <td>1</td>
+													<td>Artist Certification Form </td>
+													<td>Business Development</td>
+													<td>09/27/2013</td>
+													
+												<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<i href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-eye-open" title="View"></span></i>
+													
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													
+													
+												</td>
+													
+												  </tr>
+												  <tr>
+												  <td>2</td>
+													<td>Artist Nomination Form </td>
+													<td>Business Development</td>
+													<td>09/27/2013 </td>
+													<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<i href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-eye-open" title="View"></span></i>
+													
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													
+													
+													</td>
+												  </tr>
+												  <tr>
+												  <td>3</td>
+													<td>Building Footprints </td>
+													<td>Urban Design</td>
+													<td>10/02/2013</td>
+														<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<i href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-eye-open" title="View"></span></i>
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													</td>
+										  </tr>
+										  <tr>
+										  
+												  <td>4</td>
+													<td>West End Buildings (DWG)  </td>
+													<td>Urban Design</td>
+													<td>04/07/2013</td>
+														<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<i href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-eye-open" title="View"></span></i>
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													
+													</td>
+										  </tr>
+										  <tr>
+										  
+												  <td>5</td>
+													<td>Building Footprints </td>
+													<td>Human Resources</td>
+													<td>11/09/2013 </td>
+														<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<i href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-eye-open" title="View"></span></i>
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													</td>
+										  </tr>
+										  <tr>
+										  
+												  <td>6</td>
+													<td>South Boston Terrain (Max)  </td>
+													<td>Human Resources</td>
+													<td>26/08/2013</td>
+														<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<i href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-eye-open" title="View"></span></i>
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													</td>
+										  </tr>
+										  <tr>
+										  
+												  <td>7</td>
+													<td>Building Footprints </td>
+													<td>Business Development</td>
+													<td>24/05/2013</td>
+														<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<i href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-eye-open" title="View"></span></i>
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													</td>
+										  </tr>
+										  <tr>
+										  
+												    <td>8</td>
+												  
+													<td>Planning Internship  </td>
+													<td>Business Development</td>
+													<td>18/12/2014</td>
+														<td>
+													<span class="glyphicon glyphicon-download-alt" title="Download"></span>
+													<a href="mailto:manish@simplygraphix.com"><span class="glyphicon glyphicon-envelope" title="Mail"></span></a>
+													<span class="glyphicon glyphicon-print" title="Print"></span>
+													<span class="glyphicon glyphicon-eye-open" title="View"></span>	
+													
+													<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+													<span class="glyphicon glyphicon-triangle-bottom" title="View Details"></span>
+													</a>
+													<b id="collapseOne" class="panel-collapse collapse in">
+													<i class="panel-body">Little Info. About Document</i>
+								                    </b>
+							
+													</td>
+										  </tr>
+										</tbody>
+							</table> 
+							
+							</div>
+												
+							
+				
+				
+				</div>
+		</div>
+		
+		
+		
+		
+
+
+<img src="image/footer.png">
+<p class="pull-left"> <center>Copyright © Boston Redevelopment Authority 2015. All right reserved. </center></p>
+</div>
+
+
+<div class="modal fade" id="login-modal" aria-labelledby="myModalLabel" >
+    	<div class="modal-dialog">
+			<div class="modal-content">
+				
+					<img   id="img_logo" src="http://www.computershopper.com/var/ezwebin_site/storage/images/media/images/printer-text-document-sample/719952-1-eng-US/printer-text-document-sample.jpg">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
+				
+</div>
+
+
+
+ <script type="text/javascript">
+ 
+ 
+ var colors = [
+            { Name: "Back Bay" },
+            { Name: "Bay Village" },
+            { Name: "Charlestown" },
+            { Name: "Chinatown" },
+            { Name: "Downtown" },
+            { Name: "Dorchester" },
+            { Name: "Fenway" },
+            { Name: "Harbor Islands" },
+            { Name: "East Boston" },
+
+        ];
+
+        $(function () {
+
+            
+            $("#checkboxSelectCombo").igCombo({
+                
+                dataSource: colors,
+                textKey: "Name",
+                valueKey: "Name",
+                multiSelection: {
+                    enabled: true,
+                    showCheckboxes: true
+                }
+            });
+
+        });
+		
+		$(function () {
+
+            
+            $("#checkboxSelectCombo1").igCombo({
+                
+                dataSource: colors,
+                textKey: "Name",
+                valueKey: "Name",
+                multiSelection: {
+                    enabled: true,
+                    showCheckboxes: true
+                }
+            });
+
+        });
+		
+		$(function () {
+
+            
+            $("#checkboxSelectCombo2").igCombo({
+                
+                dataSource: colors,
+                textKey: "Name",
+                valueKey: "Name",
+                multiSelection: {
+                    enabled: true,
+                    showCheckboxes: true
+                }
+            });
+
+        });
+		
+		$(function () {
+
+            
+            $("#checkboxSelectCombo3").igCombo({
+                
+                dataSource: colors,
+                textKey: "Name",
+                valueKey: "Name",
+                multiSelection: {
+                    enabled: true,
+                    showCheckboxes: true
+                }
+            });
+
+        });
+		
+		
+		$(".date-picker").datepicker();
+
+$(".date-picker").on("change", 
+function () {
+    var id = $(this).attr("id");
+    var val = $("label[for='" + id + "']").text();
+    
+});
+		
+		
+         
+        
+
+ 
+ 
+         
+        </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+/*header*/
+.jumbotron
+{
+background-color:#292929;
+height:190px;
+}
+
+/*Side Bar*/
+#sidebar
+{
+background-color :#353535;
+height:690px;
+}
+
+
+/*Footer*/
+.footer-bottom{
+padding:20px;}
+
+.main{background-color:#;}
+
+/*right side*/
+.bodyRight{
+	color: white;
+	float:right;
+	font-size:12px;
+}
+
+
+
+/*menu*/
+ul.header1
+ {
+
+color:#f25520;
+font-size:15px;
+font-family:arial;
+display:inline;
+
+
+}
+
+li.k
+{
+float:left;
+padding:5px 0px 0px 20px;
+}
+
+
+.glyphicon:before {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.sidehead{
+color: #f25520;
+font-size: 20px;
+
+
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    width: 300px;
+	
+
+}
+
+li i {
+    display: block;
+    color: #f25520;
+    padding: 8px 16px;
+    text-decoration: none;
+	
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
